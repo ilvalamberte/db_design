@@ -1,0 +1,166 @@
+body {
+
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03rem;
+}
+
+.bgBlue {
+    background-color: #000A20;
+    color: white;
+}
+.form-control {
+    width: 300px;
+}
+
+
+#formContr {
+
+    width: 400px;
+    margin-left: 293px;
+    height: 30px;
+    font-size: 0.8em;
+}
+
+.container1 {
+
+   
+    width: 310px;
+    height: 100px;
+
+
+background: #FFFFFF;
+/* Gray 1 */
+
+border: 0.3px solid #333333;
+box-sizing: border-box;
+border-radius: 5px;
+-webkit-box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
+-moz-box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
+box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
+}
+
+.progress {
+    width: 160px;
+    height: 11px;
+    border-radius: .5rem;
+}
+
+
+.progress1 {
+    width: 80px;
+    height: 7px;
+    border-radius: .5rem;
+}
+
+
+.progressSm {
+    width: 80px;
+    height: 5px;
+    border-radius: .5rem;
+    background-color: grey;
+}
+.progress-bar1 {
+    background-color: #00FFCE;
+}
+
+.progress-bar {
+    background-color: #00FFCE;
+}
+.btn {
+    width: 90px;
+    color: #00FFCE;
+    border-radius: 6px;
+   height: 80%;
+   line-height: 1.8;
+   padding: .3rem;
+   margin-top: 4px;
+ 
+}
+
+
+#srchBtn {
+
+width: 3em;
+padding: 0.1rem;
+
+}
+
+.btnF {
+
+    font-size: 0.6rem;
+}
+
+.f4 {
+
+    font-size: 1rem;
+}
+
+.bgGr {
+
+    background-color: #FAFAFA;
+}
+.btnF1 {
+    font-size: 0.65rem;
+    color: darkgray;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #484848;
+  }
+  
+  .footer-text {
+    color: white;
+  }
+  
+  /*Submit Button*/
+ 
+
+  .navbar {
+      height: 45px;
+  }
+.dropdown-menu {
+    background-color: black;
+    color: white;
+}
+
+
+.ma0 {
+    margin: 0 auto;
+}
+
+
+.navbar-dark .navbar-nav {
+font-size: 0.95rem;
+}
+
+.carousel-control-next {
+
+    justify-content: right;
+    color: black;
+}
+
+.carousel-control-next-icon {
+    color: black;
+}
+
+.carousel-control-next-icon {
+    background-image: url('chevron.svg');
+    margin-left: 50px;
+}
+
+.carousel-control-prev-icon {
+
+    background-image: url('chevron2.svg');
+    margin-right: -100px;
+
+}
+
+h1 {
+    font-size: 1.4em;
+}
