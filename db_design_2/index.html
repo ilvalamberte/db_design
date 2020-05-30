@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
@@ -18,15 +19,16 @@
 <body>
     
 <div class="flex flex-column justify-between">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgBlue">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bgBlue w-100">
   
-       
-            <a class="navbar-brand" href="#"><img src="img/logo_1.png" width="170px" height="33px" alt=""></a>
+     
+            <a class="navbar-brand w-40" href="#"><img src="img/logo_1.png" width="170px" height="33px" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
-          
+      
+          <div class="w-60 flex flex-row">
             <form class="form-inline my-2 my-lg-0 dn db-ns">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search for available courses" aria-label="Search" id="formContr">
                 <button class="btn btn-outline-success my-2 my-sm-0" id="srchBtn" type="submit"><svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -107,7 +109,7 @@
  
               </ul>
           
-          
+            </div>
         
       
       </nav>
@@ -292,7 +294,7 @@
       </div>
 
       <div class="db dn-ns">
-        <div class="ma1 container1 ml4">
+        <div class="container2 dib">
           <h1 class="f4 tc">Topic</h1>
           
           <div class="flex flex-row">
@@ -321,13 +323,36 @@
 
 
 
-      <footer class="footer">
-        <div class="container text-center">
-          <span class="footer-text">Copyright © 2020 | All Rights Reserved</span>
-        </div>
-      </footer>
 
     </div>
+
+
+    <footer class="footer">
+      <div class="text-center w-100 flex flex-row">
+    <div class="w-30 ml4">
+          <div class="icons flex flex-row">
+            <a href="#">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+         
+          </div>
+  
+        </div>
+        <div class="w-70">
+          <div class="mr2 tr">
+         <p class="white f5">Web Development, Semester 1</p>
+          </div>
+  
+        </div>
+       
+      </div>
+    </footer>
   </div>
 
 </body>

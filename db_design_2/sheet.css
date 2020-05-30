@@ -16,17 +16,39 @@ body {
 
 #formContr {
 
-    width: 400px;
-    margin-left: 293px;
-    height: 30px;
+    width: 25.000em;
+    left: 60%;
+    height: 1.875em;
     font-size: 0.8em;
+    margin-top: 0.2em;
 }
 
 .container1 {
 
    
-    width: 310px;
-    height: 100px;
+    width: 18.375em;
+    height: 6.250em;
+    margin-right: 0.1em;
+    margin-left: 0.1em;
+
+
+background: #FFFFFF;
+/* Gray 1 */
+
+border: 0.3px solid #333333;
+box-sizing: border-box;
+border-radius: 5px;
+-webkit-box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
+-moz-box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
+box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
+}
+
+.container2 {
+
+   
+    width: 18.375em;
+    height: 6.250em;
+
 
 
 background: #FFFFFF;
@@ -41,8 +63,8 @@ box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
 }
 
 .progress {
-    width: 160px;
-    height: 11px;
+    width: 12.000em;
+    height: 0.9em;
     border-radius: .5rem;
 }
 
@@ -68,7 +90,7 @@ box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
     background-color: #00FFCE;
 }
 .btn {
-    width: 90px;
+    width: 8.625em;
     color: #00FFCE;
     border-radius: 6px;
    height: 80%;
@@ -77,12 +99,16 @@ box-shadow: 6px 10px 35px 18px rgba(207,205,207,1);
    margin-top: 4px;
  
 }
-
+.form-inline {
+    margin-left: -2em;
+    margin-top: 3%;
+}
 
 #srchBtn {
 
 width: 3em;
-padding: 0.1rem;
+padding: 0rem;
+margin-top: 0.2em;
 
 }
 
@@ -122,7 +148,7 @@ padding: 0.1rem;
  
 
   .navbar {
-      height: 45px;
+      height: 2.813em;
   }
 .dropdown-menu {
     background-color: black;
@@ -164,3 +190,18 @@ font-size: 0.95rem;
 h1 {
     font-size: 1.4em;
 }
+
+.icons {
+   
+ }
+.icons a {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    color: darkgray;
+    text-decoration: none;
+ }
+.icons a:hover {
+    color: #00FFCE;
+    transition: all 0.7s ease-out;
+  text-decoration: none; }
+
